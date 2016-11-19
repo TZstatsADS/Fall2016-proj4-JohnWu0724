@@ -29,10 +29,10 @@ How to choose the number of groups? I choose suitable number of groups based on 
 	
 + Necessary libraries/packages:
 
-	1. Extractinng features:rhdf5
-	2. Association rules:arules, arulesViz
-	3. Topic Modeling:tm,lda,NLP
-	4. Predictive Models:randomForest,xgboost,e1071
+	1. Extractinng features: (rhdf5)
+	2. Association rules: (arules, arulesViz)
+	3. Topic Modeling: (tm,lda,NLP)
+	4. Predictive Models: (randomForest,xgboost,e1071)
 
 	
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
