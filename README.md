@@ -26,6 +26,13 @@ How to choose the number of groups? I choose suitable number of groups based on 
  	2. Futher thought on association rules: I tried to use association rules to predict rather than just classify. So for 	      music features, rather than combine all features in one matrix, I will use five kinds of features with different		levels. For example, I have bars, beats, sections, segments and tatums as my features, and for each feature, such as 	     bars, I will further classify it to 3 levels(bar1,bar2,bar3) based on clustering method. And then I will apply 	      	      association rules on music features and lyrics. The rules will look like this: {bars1,beats2,segments3} => {war},    	   {beats2, segments3, section 1} => {war}. The diffcult here is to find a suitbale way to combine music feature matrix   	  and lyrics transaction matrix, I'm still working on it.
  	3. I used tm_map function(removePunctution, removeWords, stopwords('English')...) in 'tm' package to romove high 	 frequency words. And coverted lyrics to Corpus and then dtm form. But I always get error when I use 
 	'lda.collapsed.gibbs.sampler' function, I don't know what's wrong here and keep debugging.
+	
++ Necessary libraries/packages:
+
+	1. Extractinng features:rhdf5
+	2. Association rules:arules, arulesViz
+	3. Topic Modeling:tm,lda,NLP
+	4. Predictive Models:randomForest,xgboost,e1071
 
 	
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
