@@ -17,7 +17,7 @@ How to choose the number of groups? I choose suitable number of groups based on 
 + For the advanced model, I need to improve my algorithms on following two parts:
 	1. Further clean the data set to get better features
        	My baseline model simply extracted raw data as features. I could calculate time intervals between each start 		time and the mean and variance of loudness to get better features. Also, I need to clean punctuation words, stop words	      and other common used words when I classfiy lyrics.
-        2. Better prediction models
+	2. Better prediction models
 	Rather than just classify musics, I should classify lyrics as well based on topic modeling. And than I should try	 logistic regression/random forest/Adaboost/SVM methods to improve my prediction
 	
 	
