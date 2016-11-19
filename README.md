@@ -33,6 +33,9 @@ How to choose the number of groups? I choose suitable number of groups based on 
 	2. Association rules: (arules, arulesViz)
 	3. Topic Modeling: (tm,lda,NLP)
 	4. Predictive Models: (randomForest,xgboost,e1071)
+	
+	R verion: 3.3.1 
+	Repository tested on Mac and Windows
 
 	
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
