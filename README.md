@@ -14,6 +14,10 @@ Term: Fall 2016
 
 How to choose the number of groups? I choose suitable number of groups based on recurrence rate and occupation ratio. I found there is so many punctuations and stop words(such as I,the, to...)get the highest rank in each group, so when I calculate recurrence rate, I used 50:100 highest rank words in my calculation. Groups should not have too many similar words with each other. Also, I could not make number of songs in each group too small which is not representative and will cause overfitting. So I set minimum number of songs in each group to be 50. Based on these to constrains, 24 is the most suitable number of groups.
 
+![screenshot](figs/features.png)
+
+![screenshot](figs/frequency.png)
+
 + For the advanced model, I need to improve my algorithms on following two parts:
 	1. Further clean the data set to get better features
        	My baseline model simply extracted raw data as features. I could calculate time intervals between each start 		time and the mean and variance of loudness to get better features. Also, I need to clean punctuation words, stop words	      and other common used words when I classfiy lyrics.
